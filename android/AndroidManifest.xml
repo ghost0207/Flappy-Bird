@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.android.flappybird">
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bird1"
+        android:isGame="false"
+        android:appCategory="game"
+        android:label="🐥Flap Bird Flap🐥"
+        android:theme="@style/GdxTheme"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity android:name=".AndroidLauncher"
+            android:screenOrientation="landscape">
+        </activity>
+       <activity android:name=".SplashActivity"
+           android:screenOrientation="landscape"
+           android:exported="true">
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN"/>
+               <category android:name="android.intent.category.LAUNCHER"/>
+           </intent-filter>
+       </activity>
+    </application>
+</manifest>
