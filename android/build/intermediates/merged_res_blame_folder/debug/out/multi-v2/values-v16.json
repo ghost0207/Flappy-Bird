@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.flappybird.android-mergeDebugResources-8:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HEMA\\.gradle\\caches\\transforms-3\\bb7363aafd67c654f03b974b71a80130\\transformed\\core-1.3.2\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HEMA\\.gradle\\caches\\transforms-3\\73c7db8b003ae110310283431507ea58\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
